@@ -123,7 +123,7 @@ def update_tool():
     print("[*] Aggiornando...")
     try:
         txt = urllib.request.urlopen(
-            "https://github.com/TheSpeedX/WhatScraper/raw/master/whatscraper.py").read()
+            "https://github.com/hopnetgalaxy/WhatsLink/raw/main/whatscraper.py").read()
         with open(sys.argv[0], "wb") as f:
             f.write(txt)
         print("[$] Aggiornamento eseguito con successo")
